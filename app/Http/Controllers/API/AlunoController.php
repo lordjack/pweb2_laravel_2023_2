@@ -15,6 +15,7 @@ class AlunoController extends BaseController
     {
         $objects = Aluno::all();
 
+        //dd( $objects );
         return $this->sendResponse($objects,"Registro Carregado com sucesso!");
     }
 

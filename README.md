@@ -42,7 +42,7 @@ Código-Fonte do Projeto desenvolvido durante as aulas de  desenvolvido durante 
 `php artisan make:migration create_nome_tabela`
 
 **Gerar as tabelas no banco de dados**  
-`php artisan migrate`
+`php artisan migrate` ou `php artisan migrate --seed` Gera o banco e execulta os seeds 
 
 **Salvar .SQL do banco de dados**  
 `database/sql/db_aula.sql`
@@ -51,7 +51,7 @@ Código-Fonte do Projeto desenvolvido durante as aulas de  desenvolvido durante 
 `php artisan make:seeder NomeSeeder`
 
 **Inserir registros no banco de dados a partir de um arquivo**  
-`php artisan db::seed NomeSeeder`
+`php artisan db:seed NomeSeeder`
 
 ----
 ## Comandos básicos do Laravel  

@@ -18,7 +18,7 @@ class AlunoSeeder extends Seeder
                  'email'=>$fake->email,
                  'telefone'=>$fake->phoneNumber,
                  'data_nascimento'=>$fake->date,
-                 'cpf'=>$fake->phoneNumber,
+                 'cpf'=>$fake->phone,
                 ]
             );
         }
