@@ -99,5 +99,7 @@ Código-Fonte do Projeto desenvolvido durante as aulas de  desenvolvido durante 
 ### Links Úteis
 - [Documentação oficial do Laravel](https://laravel.com/docs).
 - [Correção do Erro de instalação do login Breeze](https://stackoverflow.com/questions/72798465/vite-manifest-not-found-at-c-users-hp-example-app-public-build-manifest-json)
+- [Criando Relatório em PDF com Laravel](https://www.itsolutionstuff.com/post/laravel-create-pdf-file-with-image-exampleexample.html)
+- [Criando Gráficos com Laravel](https://larapex-charts.netlify.app/)
 - [Criando uma API com Laravel](https://www.itsolutionstuff.com/post/laravel-9-rest-api-authentication-using-sanctum-tutorialexample.html)
 - [Curso completo Laravel versão 10 em português](https://academy.especializati.com.br/curso/laravel-10-gratuito).
