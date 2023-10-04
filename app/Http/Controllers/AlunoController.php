@@ -16,9 +16,12 @@ class AlunoController extends Controller
      */
     public function index()
     {
-        $alunos = Aluno::all();
 
-        return view('aluno.list')->with(['alunos'=> $alunos]);
+        $alunos = Aluno::with('turmas')->get();
+        dd($alunos);
+      //  $alunos = Aluno::all();
+
+      //  return view('aluno.list')->with(['alunos'=> $alunos]);
     }
 
     /**

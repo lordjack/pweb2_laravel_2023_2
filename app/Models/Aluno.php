@@ -35,4 +35,12 @@ class Aluno extends Model
         return $this->belongsTo(CategoriaAluno::class,
             'categoria_aluno_id','id');
     }
+
+    //listar todas as turmas que o aluno esta matriculado
+    public function turmas(){
+        //relacionamento n - n (muito para muito)
+        return $this->belongsToMany(Turma::class,
+            'matricula','aluno_id','turma_id');
+    }
+
 }
