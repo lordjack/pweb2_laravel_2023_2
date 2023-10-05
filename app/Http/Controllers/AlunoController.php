@@ -18,10 +18,10 @@ class AlunoController extends Controller
     {
 
         $alunos = Aluno::with('turmas')->get();
-        dd($alunos);
-      //  $alunos = Aluno::all();
+       // dd($alunos);
+       // $alunos = Aluno::all();
 
-      //  return view('aluno.list')->with(['alunos'=> $alunos]);
+        return view('aluno.list')->with(['alunos'=> $alunos]);
     }
 
     /**

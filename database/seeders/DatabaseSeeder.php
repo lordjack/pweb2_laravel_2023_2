@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Database\Seeders\AlunoSeeder;
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         //php artisan migrate --seed //execulta os seeds junto com o migrate
         //php artisan migrate:fresh --seed //execulta os seeds junto com a recriação do banco
         $this->call([
-        //    TurmaSeeder::class,
+            //TurmaSeeder::class,
             AlunoSeeder::class
         ]);
 

@@ -21,7 +21,7 @@ class Aluno extends Model
     ];
 
     protected $casts = [
-        'data_nascimento'=>"date",
+        'data_nascimento'=>'datetime:Y-m-d',
         'categoria_aluno_id'=> "integer"
     ];
 
