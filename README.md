@@ -18,6 +18,9 @@ Código-Fonte do Projeto desenvolvido durante as aulas de  desenvolvido durante 
 **2. Criar as tabelas do banco de dados do projeto**  
 `php artisan migrate` 
 
+**Ou criar as tabelas e insere os registros no banco de dados do projeto**  
+`php artisan migrate --seed` 
+
 ----
 ## Diretorios mais usados do projeto
 **Controller**
